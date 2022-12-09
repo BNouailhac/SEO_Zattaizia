@@ -5,10 +5,15 @@ import { ReactComponent as Award } from "../../svg/award.svg";
 import { ReactComponent as Shield } from "../../svg/shield.svg";
 import { ReactComponent as Compass } from "../../svg/compass.svg";
 import { ReactComponent as Heart } from "../../svg/heart.svg";
+import Helmet from 'react-helmet';
 
 const About = () => {
   return (
     <div id='about'>
+        <Helmet>
+          <title>About - fullteam.com</title>
+          <meta name="description" content="Learn about us" />
+        </Helmet>
         <div className="subComponent" id="aboutBody">
           <Container>
             <header style={{'align-items': 'center'}} className="headerTitle text-center">

@@ -14,8 +14,11 @@
   margin: 25px;
 }
 
-.row{
-  display: inline-flex;
+@media (min-width: 950px) {
+  .row{
+    display: inline-flex;
+  }
+  
 }
 
 .about-container {

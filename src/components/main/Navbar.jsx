@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="main-top">
         <div className="main-top-cont">
           <div className="logo-cont">
-            <img className="logo" src="./images/mountain.png" alt="" />
+            <img className="logo" src="./mountain.png" alt="" />
           </div>
           <div>
             <ul className={toggle ? "navULactive" : "navUL"}>
@@ -33,16 +33,37 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href="/Services">
-                  <Link className="nula" to="/Services">
+                <a href="/services">
+                  <Link className="nula" to="/services">
                     Services
                   </Link>
                 </a>
               </li>
               <li>
-                <a href="/about">
-                  <Link className="nula" to="/about">
+                <a href="/carousel">
+                  <Link className="nula" to="/carousel">
+                    Activities
+                  </Link>
+                </a>
+              </li>
+              <li>
+                <a href="/blog">
+                  <Link className="nula" to="/blog">
                     Blog
+                  </Link>
+                </a>
+              </li>
+              <li>
+                <a href="/tour">
+                  <Link className="nula" to="/tour">
+                    Tour
+                  </Link>
+                </a>
+              </li>
+              <li>
+                <a href="/ourteam">
+                  <Link className="nula" to="/ourteam">
+                    Our Team
                   </Link>
                 </a>
               </li>

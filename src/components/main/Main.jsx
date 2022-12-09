@@ -1,10 +1,16 @@
 import React from "react";
 import "./Main.css";
 import "../../App.css";
+import Helmet from 'react-helmet';
 
 const Main = () => {
   return (
     <div>
+      <Helmet>
+        <title>Home - fullteam.com</title>
+        <meta name="description" content="Make sport at zattazia" />
+        <link rel="canonical" href="/home" />
+      </Helmet>
       <main className="cover-page" id="hero">
         <section className="wrapped-page">
           <div className="item-center">

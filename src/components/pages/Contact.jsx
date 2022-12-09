@@ -1,9 +1,14 @@
 import React from "react";
 import "./Pages.css";
+import Helmet from 'react-helmet';
 
 const Contact = () => {
   return (
     <div className="contact">
+      <Helmet>
+        <title>Contact - fullteam.com</title>
+        <meta name="description" content="Let's talk together" />
+      </Helmet>
       <div className="max-width">
         <div className="contact-container">
           <div className="cols">
