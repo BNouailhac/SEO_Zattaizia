@@ -5,7 +5,7 @@ import Helmet from 'react-helmet';
 
 const Main = () => {
   return (
-    <div>
+    <div id="home">
       <Helmet>
         <title>Home - fullteam-zattaizia.web.app</title>
         <meta name="description" content="Make sport at zattazia" />

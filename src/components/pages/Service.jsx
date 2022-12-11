@@ -11,13 +11,17 @@ import Helmet from 'react-helmet';
 class Services extends Component {
   render() {
     return (
-      <div className="margin_top wrapped-services">
+      <div id="services" className="wrapped-services">
         <Helmet>
           <title>Services - fullteam-zattaizia.web.app</title>
           <meta name="description" content="What we offer you" />
         </Helmet>
         <div className="subComponent" id="servicesBody">
           <Container>
+            <header style={{'align-items': 'center', 'color': 'white'}} className="headerTitle text-center">
+              <h1>Services</h1>
+              <p style={{'color': 'white'}}>What we offer you</p>
+            </header>
             <section className="svg-group text-center">
               <Row>
                 <Col lg="3" md="6" sm="6">
