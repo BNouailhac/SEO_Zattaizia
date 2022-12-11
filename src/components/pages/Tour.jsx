@@ -10,7 +10,7 @@ import Helmet from 'react-helmet';
 const Tour = () => (
   <div className="subComponent">
     <Helmet>
-        <title>Tour - fullteam.com</title>
+        <title>Tour - fullteam-zattaizia.web.app</title>
         <meta name="description" content="What is there to see in Zattaizia ?" />
     </Helmet>
     <Container>

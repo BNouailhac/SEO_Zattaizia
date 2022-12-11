@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="main-top">
         <div className="main-top-cont">
           <div className="logo-cont">
-            <img className="logo" src="./mountain.png" alt="" />
+            <img className="logo" src="./mountain.png" alt="fullteam" />
           </div>
           <div>
             <ul className={toggle ? "navULactive" : "navUL"}>

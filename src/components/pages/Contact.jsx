@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <Helmet>
-        <title>Contact - fullteam.com</title>
+        <title>Contact - fullteam-zattaizia.web.app</title>
         <meta name="description" content="Let's talk together" />
       </Helmet>
       <div className="max-width">

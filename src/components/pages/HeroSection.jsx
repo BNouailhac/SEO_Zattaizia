@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <Helmet>
-        <title>Activities - fullteam.com</title>
+        <title>Activities - fullteam-zattaizia.web.app</title>
         <meta name="description" content="What is there to do in Zattaizia ?" />
       </Helmet>
       <h1>ADVENTURE AWAITS</h1>

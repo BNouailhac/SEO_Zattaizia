@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <div>
       <Helmet>
-        <title>Home - fullteam.com</title>
+        <title>Home - fullteam-zattaizia.web.app</title>
         <meta name="description" content="Make sport at zattazia" />
         <link rel="canonical" href="/home" />
       </Helmet>

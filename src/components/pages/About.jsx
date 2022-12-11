@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div id='about'>
         <Helmet>
-          <title>About - fullteam.com</title>
+          <title>About - fullteam-zattaizia.web.app</title>
           <meta name="description" content="Learn about us" />
         </Helmet>
         <div className="subComponent" id="aboutBody">

@@ -9,7 +9,7 @@ class Blog extends Component {
     return (
       <div id='about'>
         <Helmet>
-          <title>Blog - fullteam.com</title>
+          <title>Blog - fullteam-zattaizia.web.app</title>
           <meta name="description" content="Learn latest Tourism news" />
         </Helmet>
         <div className="subComponent" id="aboutBody">

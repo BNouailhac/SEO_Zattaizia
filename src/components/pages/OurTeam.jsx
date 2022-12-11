@@ -6,7 +6,7 @@ function OurTeam() {
     return (
       <>
         <Helmet>
-          <title>Our Team - fullteam.com</title>
+          <title>Our Team - fullteam-zattaizia.web.app</title>
           <meta name="description" content="Discover our team" />
         </Helmet>
         <img style={{'width': '100%', 'margin-top': '60px'}} src={team} className='img-fluid shadow-4' alt='our Team' />

@@ -55,14 +55,14 @@
   list-style: none;
 }
 .navUL a {
-  margin-left: 30px;
+  margin-left: 20px;
   text-decoration: none;
   color: #00acc1;
   transition: 0.3s;
 }
 
 .btn-t {
-  padding: 8px 25px;
+  padding: 6px 10px;
   border: 2px solid #00acc1;
   border-radius: 50px;
   transition: 0.4s;
@@ -73,11 +73,21 @@
 }
 
 .logo {
+  visibility: hidden;
   position: absolute;
   top: 0;
   width: 200px;
   height: 200px;
-  cursor: pointer;
+}
+
+@media (min-width: 1050px) {
+  .logo {
+    visibility: initial;
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 200px;
+  }
 }
 .main-top-cont {
   display: flex;
@@ -93,15 +103,16 @@
 .navULactive {
   display: flex;
   list-style: none;
+  padding-left: 0;
 }
 .navULactive a {
   text-decoration: none;
   color: #00acc1;
   transition: 0.4s;
-  margin-left: 30px;
+  margin-left: 12.5px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 910px) {
   .main-center-texts h1 {
     font-size: 25px;
   }
@@ -115,7 +126,7 @@
   }
   .navULactive {
     width: 300px;
-    height: 200px;
+    height: 360px;
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -173,7 +184,7 @@
   }
 }
 .main-top {
-  margin: 30px;
+  margin: 35px;
 }
 .main-top-cont {
   max-width: 1300px;
