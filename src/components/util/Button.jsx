@@ -1,8 +1,6 @@
 
-import React from 'react';
+import React,{ useState } from 'react';
 import './Button.css';
-import { Link } from 'react-router-dom';
-import Nav from 'react-bootstrap/Nav';
 
 const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
 
@@ -11,7 +9,6 @@ const SIZES = ['btn--medium', 'btn--large'];
 export const Button = ({
   children,
   type,
-  onClick,
   buttonStyle,
   buttonSize
 }) => {
@@ -20,16 +17,20 @@ export const Button = ({
     : STYLES[0];
 
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
-
+  const [Trailer, setTrailer] = useState(false);
+  if (Trailer === false) {
+    return (
+          <button
+            className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+            onClick={() => {setTrailer(true)}}
+            type={type}
+          >
+            {children}
+          </button>
+    );
+  } else {
   return (
-    <Nav.Link className="navLink" href="https://www.youtube.com/watch?v=4d34-HPjVl8">
-      <button
-        className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-        onClick={onClick}
-        type={type}
-      >
-        {children}
-      </button>
-    </Nav.Link>
-  );
+    <iframe width="960" height="540" src="https://www.youtube.com/embed/4d34-HPjVl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+    );
+  }
 };

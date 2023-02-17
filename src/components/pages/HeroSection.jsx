@@ -1,4 +1,4 @@
-import React from 'react';
+import React  from 'react';
 import { Button } from '../util/Button'; 
 import './HeroSection.css';
 import Helmet from 'react-helmet';

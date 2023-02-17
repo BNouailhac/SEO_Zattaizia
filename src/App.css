@@ -10,10 +10,13 @@
 .navLink {
   margin: 5px;
   font-size: inherit;
+  color: black;
 }
 
 .nav-link {
-  color: rgb(216, 216, 216) !important;
+  color: rgb(0, 0, 0) !important;
+  text-decoration: none;
+  
 }
 
 .nav-link.active,

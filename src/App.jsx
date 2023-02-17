@@ -11,6 +11,9 @@ import Carousel from "./components/pages/HeroSection.jsx";
 import Tour from "./components/pages/Tour.jsx";
 import OurTeam from "./components/pages/OurTeam.jsx";
 import Contact from "./components/pages/Contact.jsx";
+import LifeNow from "./components/pages/BlogContent/LifeNow.jsx";
+import Cycling from "./components/pages/BlogContent/Cycling.jsx";
+
 
 const App = () => {
   return (
@@ -27,6 +30,8 @@ const App = () => {
         <Route path="/tour" element={<Tour />} />
         <Route path="/ourteam" element={<OurTeam />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/blog/LifeNow" element={<LifeNow />} />
+        <Route path="/blog/Cycling" element={<Cycling />} />
       </Routes> 
 
     </Router>
