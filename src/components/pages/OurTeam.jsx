@@ -1,5 +1,5 @@
 import React from 'react';
-import team from "../../img/team.png";
+import team from "../../img/team.webp";
 import Helmet from 'react-helmet';
 import { Container } from "reactstrap";
 
@@ -16,7 +16,7 @@ function OurTeam() {
               <h1>Our Team</h1>
               <p>Discover our team</p>
             </header>
-            <img style={{'width': '100%', 'margin-top': '60px'}} src={team} className='img-fluid shadow-4' alt='our Team' />
+            <img style={{'width': '100%', 'margin-top': '60px'}} src={team} className='img-fluid shadow-4' alt='our Team' loading="lazy" />
           </Container>
         </div>
       </div>

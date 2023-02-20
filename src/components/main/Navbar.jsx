@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../../App.css";
 
 const Navbar = () => {
@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="main-top">
         <div className="main-top-cont">
           <div className="logo-cont">
-            <img className="logo" src="./mountain.png" alt="fullteam" />
+            <img className="logo" src="./mountain.png" alt="fullteam" loading="lazy" />
           </div>
           <div>
             <ul className={toggle ? "navULactive" : "navUL"}>

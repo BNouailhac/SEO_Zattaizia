@@ -13,13 +13,13 @@ const Main = () => {
       <Helmet>
         <title>Home - fullteam-zattaizia.web.app</title>
         <meta name="description" content="Make sport at zattazia" />
-        <link rel="canonical" href="/home" />
+        <link rel="canonical" href="/" />
       </Helmet>
       <main className="cover-page" id="hero">
         <section className="wrapped-page">
           <div className="item-center">
             <h1>FULLTEAM</h1>
-            <h3>Sportive tourism at Zattaizia</h3>
+            <h2>Sportive tourism at Zattaizia</h2>
             <div className="subComponent" id="tourBody">
         <Container >
             <header style={{'align-items': 'center'}} className="headerTitle text-center">

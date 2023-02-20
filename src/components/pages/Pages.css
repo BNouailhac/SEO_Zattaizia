@@ -2,77 +2,30 @@
   height: 766px;
 }
 
-.abCfoto {
-  width: 400px;
-  height: 400px;
-}
-
-.about-center {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 25px;
-}
-
 @media (min-width: 950px) {
   .row{
     display: inline-flex;
   }
   
 }
-
-.about-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 650px;
-}
-.about-header {
-  text-align: center;
-  color: rgb(59, 59, 59);
-}
-.about-header h2 {
+h2 {
   letter-spacing: 1px;
   font-weight: 400;
   font-size: 28px;
 }
-.abcenter-text {
-  max-width: 700px;
-}
-.abcenter-text h3 {
-  font-weight: 400;
-  color: rgb(105, 104, 104);
-}
-.abcenter-text h3 a {
+
+h3 a {
   text-decoration: none;
   color: #00acc1;
 }
-
 @media (max-width: 824px) {
-  .about-center {
-    flex-direction: column-reverse;
-  }
-  .abCfoto {
-    width: 250px;
-    height: 250px;
-  }
-  .about-header {
-    text-align: center;
-  }
-  .about-header h2 {
+  h2 {
     font-size: 20px;
-  }
-  .abcenter-text h3 {
-    font-size: 17px;
-  }
-  .about-container {
-    height: auto;
   }
   .about {
     height: auto;
   }
 }
-
 .contact-container {
   display: flex;
   flex-direction: column;
