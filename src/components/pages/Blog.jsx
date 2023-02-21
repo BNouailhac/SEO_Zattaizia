@@ -13,7 +13,7 @@ class Blog extends Component {
           <title>Blog - fullteam-zattaizia.web.app</title>
           <meta name="description" content="Learn latest Tourism news" />
         </Helmet>
-        <div className="subComponent" id="blogBody">
+        <div className="subComponent" id="contactBody">
           <Container>
             <header style={{'align-items': 'center'}} className="headerTitle text-center">
               <h1>Blogs</h1>
