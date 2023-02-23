@@ -12,7 +12,7 @@ const Main = () => {
     <div id="home">
       <Helmet>
         <title>Home - fullteam-zattaizia.web.app</title>
-        <meta name="description" content="Make sport at zattazia" />
+        <meta name="description" content="Make sports tourism at zattazia" />
         <link rel="canonical" href="/" />
       </Helmet>
       <main className="cover-page" id="hero">
